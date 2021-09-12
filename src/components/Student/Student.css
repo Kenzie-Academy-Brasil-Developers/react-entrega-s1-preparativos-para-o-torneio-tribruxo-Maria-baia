@@ -1,0 +1,16 @@
+.allStudents{
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    height: 80%;
+    column-gap: 98px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .allStudents{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
