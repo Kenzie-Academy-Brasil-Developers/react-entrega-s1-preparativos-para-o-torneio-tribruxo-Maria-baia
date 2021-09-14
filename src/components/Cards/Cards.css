@@ -9,38 +9,42 @@ h1{
     color: #3f0a14;
 }
 
-.red, .red_p{
+p{
+    font-size: 25px;
+}
+
+.gryffindor, .Gryffindor{
     color: #8b0000;
     border: 5px solid #8b0000;
 }
 
-.red_p{
+.Gryffindor{
     border: none;
 }
 
-.green, .green_p{
+.slytherin, .Slytherin{
     color: #1a472a;
     border: 5px solid #1a472a;
 }
 
-.green_p{
+.Slytherin{
     border: none;
 }
 
-.yellow, .yellow_p{
+.hufflepuff, .Hufflepuff{
     color: #ffdb00;
     border: 5px solid #ffdb00;
 }
 
-.yellow_p{
+.Hufflepuff{
     border: none;
 }
 
-.blue, .blue_p{
+.ravenclaw, .Ravenclaw{
     color: #0e1a40;
     border: 5px solid #0e1a40;
 }
 
-.blue_p{
+.Ravenclaw{
     border: none;
 }

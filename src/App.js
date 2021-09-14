@@ -1,15 +1,17 @@
-import { render } from '@testing-library/react';
 import './App.css';
 import Student from './components/Student/Student';
+import { useState } from 'react';
 
 function App() {
-  function callback(){
-    return <Student/>
-  }
+  const [show, setShow] = useState(<div>
+    <h1>Torneio Tribruxo</h1>
+    <p>Clique no botão para encontrar os feiticeiros!</p>
+    <button onClick={() => setShow(<Student/>)}>Começar!</button>
+    </div>)
   return (
     <div className="App">
       <div className="App-header">
-        <Student/>
+        {show}
       </div>
     </div>
   );
