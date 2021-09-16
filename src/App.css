@@ -1,4 +1,4 @@
-.App {
+.App, .allStudents {
   text-align: center;
 }
 
@@ -12,7 +12,7 @@ button{
   color: #f1c235;
 }
 
-.App-header {
+.App-header, .allStudents {
   background-color: #734d3b;
   min-height: 100vh;
   display: flex;

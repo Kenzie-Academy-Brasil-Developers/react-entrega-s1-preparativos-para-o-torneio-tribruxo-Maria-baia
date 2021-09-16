@@ -44,12 +44,14 @@ function Student(){
     }
 
     return(
+        <div className='App-header'>
         <div className='allStudents'>
             {randomStudents(students)
             .map((student, index) => (
                 <Cards key={index} studentImage={student.image} studentName={student.name}
                 studentHouse={student.house} />
             ))}
+        </div>
         </div>
     )
 }
